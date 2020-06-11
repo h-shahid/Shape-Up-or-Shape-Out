@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Shape Up or Shape Out</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class='container'> 
+<div class='row-heading'><h3>Add a Shape</h3></div>
+ <div class='row1' id='cir-row'> <input type="submit" id='circleBtn' value="Circle">
+    <div class="form-row">
+    <input type="number" class="form-control" id="circleRadius" placeholder="Radius px">
+</div> 
+</div>
+ 
+<div class='row2'id='rec-row'> <input type="button" id='recBtn'  value="Rectangle">
+    <div class="form-row">
+        <div class="col">
+            <input type="number" class="form-control" id="rectangleWidth" placeholder="Width px">
+        
+    </div>
+<div class="col">
+    <input type="number" class="form-control" id="rectangleHeight" placeholder="Height px">
+        
+</div>
+</div>
+<div class='row3' id='sq-row'><input type="button" id='sqBtn' value="Square">
+    <div class="form-row">
+        <input type="number" class="form-control" id="squareWidth" placeholder="Side Length px">
+    </div></div>
+<div class='row4'id='tri-row'><input type="button" id='triBtn' value="Triangle">
+    <div class="form-row">
+        <div class="col">
+            <input type="number" class="form-control" id="triangleHeight" placeholder="Height px">
+        </div>
+</div>
+</div>
+<div class="row">
+    <div class='shapes col-8' id='shape-holder'>  </div>
+    <div class='values col-4' id='shape-values'></div>
+</div>
+    
+
+
+
+
+
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

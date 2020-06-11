@@ -1,0 +1,56 @@
+/* .bkground {
+    height: 600px;
+    width: 600px;
+    background-color: paleturquoise;
+    position: relative;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    
+}
+#side {
+background-color: peachpuff;
+padding-right: 30px;
+} */
+
+#shape-holder {
+    width: 600px;
+    height: 600px;
+    background-color: lightcoral;
+    contain: paint;
+}
+
+#shape-values {
+    width: 300px ;
+    height: 600px;
+    background-color: lightseagreen;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+.circle {
+   background-color: #a7137a86 ;
+   border-radius: 50%;
+   position: absolute; 
+
+}
+.rectangle {
+    background-color: rgba(69, 192, 124, 0.466);
+    position: absolute;
+    width: 200px;
+    height: 100px;
+}
+.triangle {
+    width: 0;
+    height: 0;
+    border-top: yellow;
+    border-right: transparent;
+
+}
+.square {
+width: 300px;
+height: 300px;
+position: absolute; 
+
+}
